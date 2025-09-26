@@ -1,0 +1,1 @@
+give @s armor_stand{EntityTag:{Invulnerable:1b,CustomName:'{"text":"hard"}',CustomNameVisible:1b}} 1

@@ -1,0 +1,6 @@
+    execute as @a[tag=tijs,scores={make_totem=1..},nbt={Inventory:[{id:"minecraft:totem_of_undying"}]}] at @s run data merge entity @e[type=item,limit=1,sort=nearest] {Item:{components:{"minecraft:death_protection":{death_effects:[{type:"minecraft:apply_effects",effects:[{id:"minecraft:regeneration",amplifier:1,duration:900},{id:"minecraft:absorption",amplifier:1,duration:100},{id:"minecraft:fire_resistance",amplifier:0,duration:800}]}]},"minecraft:max_stack_size":1}}}
+    execute as @a[tag=tijs,scores={make_totem=1..},nbt={Inventory:[{id:"minecraft:totem_of_undying"}]}] at @s run execute at @e[type=item,limit=1,sort=nearest] run particle totem_of_undying ~ ~ ~ 0 0.2 0 0.7 100 normal
+    execute as @a[tag=tijs,scores={make_totem=1..},nbt={Inventory:[{id:"minecraft:totem_of_undying"}]}] at @s run execute at @e[type=item,limit=1,sort=nearest] run playsound item.totem.use master @s ~ ~ ~ 1 1
+    execute as @a[tag=tijs,scores={make_totem=1..},nbt={Inventory:[{id:"minecraft:totem_of_undying"}]}] at @s run clear @s totem_of_undying 1
+    execute as @a[scores={make_totem=1..}] run scoreboard players enable @s make_totem
+    execute as @a[scores={make_totem=1..}] run scoreboard players set @s make_totem 0 

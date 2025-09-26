@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+      [
+        "minecraft:end_stone"
+      ],
+      [
+        "minecraft:leather"
+      ]
+    ],
+    "result": {
+      "id": "minecraft:skeleton_skull",
+      "components": {
+        "minecraft:item_name": "The End?"
+      },
+      "count": 1
+    }
+  }

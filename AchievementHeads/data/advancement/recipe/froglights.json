@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+      [
+        "minecraft:verdant_froglight"
+      ],
+      [
+        "minecraft:leather"
+      ]
+    ],
+    "result": {
+      "id": "minecraft:skeleton_skull",
+      "components": {
+        "minecraft:item_name": "With Our Powers Combined!"
+      },
+      "count": 1
+    }
+  }

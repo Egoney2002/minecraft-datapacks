@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+      [
+        "minecraft:stone_sword"
+      ],
+      [
+        "minecraft:leather"
+      ]
+    ],
+    "result": {
+      "id": "minecraft:skeleton_skull",
+      "components": {
+        "minecraft:item_name": "Monster Hunter"
+      },
+      "count": 1
+    }
+  }

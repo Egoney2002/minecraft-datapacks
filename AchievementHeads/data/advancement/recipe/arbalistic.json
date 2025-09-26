@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+      [
+        "minecraft:bone_block"
+      ],
+      [
+        "minecraft:leather"
+      ]
+    ],
+    "result": {
+      "id": "minecraft:skeleton_skull",
+      "components": {
+        "minecraft:item_name": "Arbalistic"
+      },
+      "count": 1
+    }
+  }

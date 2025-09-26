@@ -1,0 +1,2 @@
+give @s armor_stand[entity_data={id:"minecraft:armor_stand",NoGravity:1b,Invulnerable:1b,Invisible:1b,Tags:["data"]}] 1
+give @s armor_stand[entity_data={id:"minecraft:armor_stand",NoGravity:1b,Invulnerable:1b,Invisible:1b,Tags:["sherrif","lobbyspawn"]}] 1

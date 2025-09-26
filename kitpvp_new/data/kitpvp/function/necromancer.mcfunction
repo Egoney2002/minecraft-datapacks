@@ -1,0 +1,1 @@
+give @s lime_dye[consumable={consume_seconds:1,animation:"bow",sound:"item.crossbow.loading_start",has_consume_particles:false,on_consume_effects:[{type:"minecraft:play_sound",sound:"entity.evoker.cast_spell"}]}] 1

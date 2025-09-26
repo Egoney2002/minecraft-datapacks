@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "222",
+    "131",
+    "222"
+  ],
+  "key": {
+    "1": [
+      "minecraft:iron_ingot"
+    ],
+    "2": [
+      "minecraft:gravel"
+    ],
+    "3": [
+      "minecraft:gunpowder"
+    ]
+  },
+  "result": {
+    "id": "minecraft:barrier",
+    "components": {
+      "minecraft:item_name": "Bedrock Remover"
+    },
+    "count": 1
+  }
+}

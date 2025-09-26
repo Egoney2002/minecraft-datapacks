@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      "minecraft:spectral_arrow"
+    ],
+    [
+      "minecraft:raw_gold"
+    ]
+  ],
+  "result": {
+    "id": "minecraft:barrier",
+    "components": {
+      "minecraft:item_name": "Endangering Gold"
+    },
+    "count": 1
+  }
+}

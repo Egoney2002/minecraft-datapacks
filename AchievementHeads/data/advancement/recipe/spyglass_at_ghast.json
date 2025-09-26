@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+      [
+        "minecraft:spyglass"
+      ],
+      [
+        "minecraft:leather"
+      ],
+      [
+        "minecraft:ghast_tear"
+      ]
+    ],
+    "result": {
+      "id": "minecraft:skeleton_skull",
+      "components": {
+        "minecraft:custom_name": "Is It a Balloon?"
+      },
+      "count": 1
+    }
+  }

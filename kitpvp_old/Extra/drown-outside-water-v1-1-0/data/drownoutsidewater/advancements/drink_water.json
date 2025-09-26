@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "potion": "minecraft:water"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "drownoutsidewater:drink_water"
+    }
+}

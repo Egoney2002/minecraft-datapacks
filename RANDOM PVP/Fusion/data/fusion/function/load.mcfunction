@@ -1,0 +1,1 @@
+scoreboard objectives add fuse minecraft.custom:minecraft.sneak_time

@@ -1,0 +1,1 @@
+summon armor_stand ~ ~-0.5 ~ {Invisible:1b,Invulnerable:1b,Tags:["teleportpoint"]}

@@ -1,0 +1,3 @@
+execute unless dimension the_end run summon armor_stand ~ ~ ~ {Invisible:1b,Invulnerable:1b,NoGravity:1b,Small:1b,Tags:["weeping"]}
+execute unless dimension the_end run item replace entity @e[type=armor_stand,tag=weeping] armor.head with minecraft:player_head{display:{Name:'{"text":"Boo"}'},SkullOwner:{Id:[I;447085501,-1911470460,-1965318894,-267200014],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWUzNzNiYTljNzIwYWRlZDZhODEwNDc4ZTVlNzRjN2Y3MDk2ODExYmY5YTNjMzkyM2RlOWI5OWVmOTkyY2MifX19"}]}}} 1
+execute unless dimension the_end run setblock ~ ~ ~ air

@@ -1,0 +1,1 @@
+summon armor_stand 0 -64 0 {Invulnerable:1b,NoGravity:1b,Tags:["lava"]}

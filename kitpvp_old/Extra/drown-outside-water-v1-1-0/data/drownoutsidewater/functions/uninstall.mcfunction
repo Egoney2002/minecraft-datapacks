@@ -1,0 +1,14 @@
+scoreboard objectives remove drownoutsidewater.death
+scoreboard objectives remove drownoutsidewater.drown_ticks
+scoreboard objectives remove drownoutsidewater.turtle_helmet_ticks
+scoreboard objectives remove drownoutsidewater.water
+scoreboard objectives remove drownoutsidewater.water_before
+scoreboard objectives remove drownoutsidewater.is_in_water
+scoreboard objectives remove drownoutsidewater.is_losing_air
+scoreboard objectives remove drownoutsidewater.wears_turtle_helmet
+
+scoreboard objectives remove drownoutsidewater.var
+scoreboard objectives remove drownoutsidewater.temp
+scoreboard objectives remove drownoutsidewater.rng
+
+tellraw @a "Minecraft but you drown outside water uninstalled!"

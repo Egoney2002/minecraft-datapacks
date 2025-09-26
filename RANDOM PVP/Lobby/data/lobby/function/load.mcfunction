@@ -1,0 +1,11 @@
+scoreboard objectives add spawn dummy
+scoreboard objectives add waituntil dummy
+scoreboard objectives add spawntimer dummy
+scoreboard objectives add lobbydeath deathCount
+scoreboard objectives add playersingame dummy
+scoreboard objectives add usebarrier minecraft.used:barrier
+scoreboard objectives add usebarriercheck dummy
+scoreboard objectives add point dummy
+scoreboard objectives add money dummy
+scoreboard objectives add scoreboardtimer dummy
+scoreboard objectives add kills playerKillCount

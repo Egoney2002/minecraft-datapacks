@@ -1,0 +1,1 @@
+execute as @a[tag=bomber2] run execute at @s if score @s Deaths matches 1 run summon tnt ~ ~ ~ {Fuse:30,Motion:[0.0,0.1,0.0]}

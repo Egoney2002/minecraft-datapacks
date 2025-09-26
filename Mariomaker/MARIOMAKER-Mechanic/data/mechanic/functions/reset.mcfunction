@@ -1,0 +1,12 @@
+execute if dimension the_end as @e[type=armor_stand] at @s if block ~ ~-1 ~ red_concrete run forceload add ~-65 ~-35 ~65 ~35
+execute if dimension the_end as @e[type=armor_stand] at @s if block ~ ~-1 ~ red_concrete run clone -4 40 -35 60 100 -1 ~-4 40 ~
+execute if dimension the_end as @e[type=armor_stand] at @s if block ~ ~-1 ~ red_concrete run setblock ~65 ~-1 ~ red_concrete
+execute if dimension the_end as @e[type=armor_stand] at @s if block ~ ~-1 ~ red_concrete run setblock ~-65 ~-1 ~ red_concrete
+execute if dimension the_end as @e[type=armor_stand] at @s if block ~ ~-1 ~ red_concrete run setblock ~ ~-1 ~35 red_concrete
+execute if dimension the_end as @e[type=armor_stand] at @s if block ~ ~-1 ~ red_concrete run setblock ~ ~-1 ~-35 red_concrete
+execute if dimension the_end as @e[type=armor_stand] at @s if block ~ ~-1 ~ red_concrete run setblock ~ ~-1 ~30 lime_concrete
+execute if dimension the_end as @e[type=armor_stand] at @s if block ~ ~-1 ~ red_concrete run setblock ~ ~-1 ~29 command_block{Command:"/execute as @p run function mechanic:test"}
+execute if dimension the_end as @e[type=armor_stand] at @s if block ~ ~-1 ~ red_concrete run setblock ~ ~ ~29 stone_pressure_plate
+execute if dimension the_end as @e[type=armor_stand] at @s if block ~ ~-1 ~ red_concrete run fill ~1 40 ~29 ~59 100 ~1 air
+execute if dimension the_end as @e[type=armor_stand] at @s if block ~ ~-1 ~ red_concrete run fill ~ 40 ~30 ~60 ~-2 ~-1 air
+execute if dimension the_end as @e[type=armor_stand] at @s if block ~ ~-1 ~ red_concrete run kill @s

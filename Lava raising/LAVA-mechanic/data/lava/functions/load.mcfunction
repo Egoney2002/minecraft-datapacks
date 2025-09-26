@@ -1,0 +1,32 @@
+execute as @a[tag=!axelevel0,tag=!axelevel0complete] at @s run tag @s add axelevel0
+
+scoreboard objectives add oak mined:oak_log
+scoreboard objectives add placed_oak used:oak_log
+scoreboard objectives add axeoak dummy
+scoreboard objectives add birch mined:birch_log
+scoreboard objectives add placed_birch used:birch_log
+scoreboard objectives add axebirch dummy
+scoreboard objectives add spruce mined:spruce_log
+scoreboard objectives add placed_spruce used:spruce_log
+scoreboard objectives add axespruce dummy
+scoreboard objectives add dark_oak mined:dark_oak_log
+scoreboard objectives add placed_dark_oak used:dark_oak_log
+scoreboard objectives add axedark_oak dummy
+scoreboard objectives add jungle mined:jungle_log
+scoreboard objectives add placed_jungle used:jungle_log
+scoreboard objectives add axejungle dummy
+scoreboard objectives add mangrove mined:mangrove_log
+scoreboard objectives add placed_mangrove used:mangrove_log
+scoreboard objectives add axemangrove dummy
+scoreboard objectives add acacia mined:acacia_log
+scoreboard objectives add placed_acacia used:acacia_log
+scoreboard objectives add axeacacia dummy
+scoreboard objectives add cherry mined:cherry_log
+scoreboard objectives add placed_cherry used:cherry_log
+scoreboard objectives add axecherry dummy
+scoreboard objectives add crimson_stem mined:crimson_stem
+scoreboard objectives add placed_crimson_stem used:crimson_stem
+scoreboard objectives add axecrimson_stem dummy
+scoreboard objectives add warped_stem mined:warped_stem
+scoreboard objectives add placed_warped_stem used:warped_stem
+scoreboard objectives add axewarped_stem dummy

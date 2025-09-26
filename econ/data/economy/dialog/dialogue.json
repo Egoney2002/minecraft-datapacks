@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Conventional Bank",
+  "inputs": [
+    {
+      "type": "minecraft:boolean",
+      "key": "1",
+      "label": "Use Diamonds"
+    },
+    {
+      "type": "minecraft:boolean",
+      "key": "2",
+      "label": "Use Netherite"
+    },
+    {
+      "type": "minecraft:number_range",
+      "key": "3",
+      "width": 200,
+      "label": "Deposit into bank",
+      "start": 0,
+      "end": 64,
+      "step": 1,
+      "initial": 0
+    },
+    {
+      "type": "minecraft:number_range",
+      "key": "4",
+      "width": 200,
+      "label": "Withdraw from bank",
+      "start": 0,
+      "end": 64,
+      "step": 1,
+      "initial": 0
+    }
+  ],
+  "can_close_with_escape": true,
+  "exit_action": {
+    "label": "Cancel"
+  },
+  "actions": [
+    {
+      "label": "Confirm"
+    }
+  ]
+}

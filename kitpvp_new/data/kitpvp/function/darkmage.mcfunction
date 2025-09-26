@@ -1,0 +1,1 @@
+give @s blaze_rod[consumable={consume_seconds:1,animation:"bow",sound:"item.crossbow.loading_start",has_consume_particles:false,on_consume_effects:[{type:"minecraft:play_sound",sound:"entity.evoker.prepare_summon"}]},item_name={"bold":true,"color":"dark_gray","text":"Dark Staff"}] 1

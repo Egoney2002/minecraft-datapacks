@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+      [
+        "minecraft:gold_ingot"
+      ],
+      [
+        "minecraft:leather_boots"
+      ]
+    ],
+    "result": {
+      "id": "minecraft:barrier",
+      "components": {
+        "minecraft:item_name": "Goblin Boots"
+      },
+      "count": 1
+    }
+  }

@@ -1,0 +1,2 @@
+execute unless dimension the_end run summon skeleton ~ ~ ~ {PersistenceRequired:1b,HandItems:[{id:"bow",Count:1}],HandDropChances:[0f],ArmorDropChances:[0f,0f,0f,0f]}
+execute unless dimension the_end run setblock ~ ~ ~ air

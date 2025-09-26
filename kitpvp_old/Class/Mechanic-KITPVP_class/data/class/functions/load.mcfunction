@@ -1,0 +1,1 @@
+tellraw @a {"text": "- Classes Work!","color": "gray"}

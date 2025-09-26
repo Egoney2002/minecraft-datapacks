@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+      [
+        "minecraft:ghast_tear"
+      ],
+      [
+        "minecraft:rabbit_hide"
+      ]
+    ],
+    "result": {
+      "id": "minecraft:skeleton_skull",
+      "components": {
+        "minecraft:custom_name": "Uneasy Alliance"
+      },
+      "count": 1
+    }
+  }

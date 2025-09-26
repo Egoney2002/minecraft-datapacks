@@ -1,0 +1,9 @@
+execute as @a[tag=bomber2] run execute at @s if score @s Deaths matches 1 run summon tnt ~ ~ ~ {Fuse:60,Motion:[0.0,0.1,0.0]}
+execute as @a[tag=bomber2] run execute at @s if score @s Deaths matches 1 run summon tnt ~ ~ ~ {Fuse:60,Motion:[-0.2,0.1,0.0]}
+execute as @a[tag=bomber2] run execute at @s if score @s Deaths matches 1 run summon tnt ~ ~ ~ {Fuse:60,Motion:[0.2,0.1,0.0]}
+execute as @a[tag=bomber2] run execute at @s if score @s Deaths matches 1 run summon tnt ~ ~ ~ {Fuse:60,Motion:[-0.2,0.1,-0.2]}
+execute as @a[tag=bomber2] run execute at @s if score @s Deaths matches 1 run summon tnt ~ ~ ~ {Fuse:60,Motion:[-0.2,0.1,0.2]}
+execute as @a[tag=bomber2] run execute at @s if score @s Deaths matches 1 run summon tnt ~ ~ ~ {Fuse:60,Motion:[0.2,0.1,0.2]}
+execute as @a[tag=bomber2] run execute at @s if score @s Deaths matches 1 run summon tnt ~ ~ ~ {Fuse:60,Motion:[0.2,0.1,-0.2]}
+execute as @a[tag=bomber2] run execute at @s if score @s Deaths matches 1 run summon tnt ~ ~ ~ {Fuse:60,Motion:[0.0,0.1,0.2]}
+execute as @a[tag=bomber2] run execute at @s if score @s Deaths matches 1 run summon tnt ~ ~ ~ {Fuse:60,Motion:[0.0,0.1,-0.2]}

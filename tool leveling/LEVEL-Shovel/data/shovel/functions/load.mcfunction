@@ -1,0 +1,34 @@
+execute as @a[tag=!shovellevel0,tag=!shovellevel0complete] at @s run tag @s add shovellevel0
+
+scoreboard objectives add sand mined:sand
+scoreboard objectives add placed_sand used:sand
+scoreboard objectives add shovelsand dummy
+scoreboard objectives add gravel mined:gravel
+scoreboard objectives add placed_gravel used:gravel
+scoreboard objectives add shovelgravel dummy
+scoreboard objectives add clay mined:clay
+scoreboard objectives add placed_clay used:clay
+scoreboard objectives add shovelclay dummy
+scoreboard objectives add rooted_dirt mined:rooted_dirt
+scoreboard objectives add placed_rooted_dirt used:rooted_dirt
+scoreboard objectives add shovelrooted_dirt dummy
+scoreboard objectives add soul_sand mined:soul_sand
+scoreboard objectives add placed_soul_sand used:soul_sand
+scoreboard objectives add shovelsoul_sand dummy
+scoreboard objectives add mycelium mined:mycelium
+scoreboard objectives add placed_mycelium used:mycelium
+scoreboard objectives add shovelmycelium dummy
+scoreboard objectives add random dummy
+scoreboard objectives add irondetector mined:sand
+scoreboard objectives add random2 dummy
+scoreboard objectives add irondetector2 mined:sand
+scoreboard objectives add random3 dummy
+scoreboard objectives add irondetector3 mined:sand
+scoreboard objectives add random4 dummy
+scoreboard objectives add irondetector4 mined:sand
+scoreboard objectives add random5 dummy
+scoreboard objectives add irondetector5 mined:soul_sand
+scoreboard objectives add random6 dummy
+scoreboard objectives add irondetector6 mined:soul_sand
+scoreboard objectives add irondetector5alt mined:soul_soil
+scoreboard objectives add irondetector6alt mined:soul_soil
